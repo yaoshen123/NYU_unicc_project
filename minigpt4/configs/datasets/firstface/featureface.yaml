@@ -1,0 +1,13 @@
+datasets:
+  feature_face_caption:
+    data_type: images
+    
+    build_info:
+      image_path: /data/user/unicc/video
+      # 
+      # ann_path: /data/user/unicc/relative_train_NCEV.txt
+      # for stage 1 pretrain
+      # ann_path: /data/user/unicc/MERR_coarse_grained.txt
+      # for stage 2 finetune
+      ann_path: /data/user/unicc/MERR_fine_grained_filtered.txt
+      
